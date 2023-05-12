@@ -20,12 +20,10 @@ const Header = () => {
 
         <div className="header-search-user">
           <form action="">
-          <input type="text" />
+          <input placeholder='Search' type="text" />
 
           </form>
         </div>
-
-
 
       </div>
     </div>

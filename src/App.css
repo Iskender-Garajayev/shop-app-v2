@@ -16,6 +16,25 @@
   color: #fff;
 }
 
+.header-navbar ul{
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-navbar ul li{
+  list-style-type: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.header-search-user form input{
+  background: transparent;
+  outline: none;
+  border:  #FFF .5px solid;
+  color: #fff;
+}
+
 
 
 /* home screen  */
