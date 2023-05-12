@@ -21,15 +21,15 @@ const Product = ({product}) => {
   return (
     <div>
       {/* {product.map((product)=> ( */}
-        <Link to={`/product/${product.id}`} className='card' >
-          <div className="card-img">
+        <div className='card' >
+          <Link to={`/product/${product.id}`} className="card-img">
             <img src={product.image} alt="" />
-          </div>
+          </Link>
           <div className="card-body">
             <p>{product.title}</p>
             <p>{product.price}</p>
           </div>
-        </Link>
+        </div>
     </div>
   )
 }

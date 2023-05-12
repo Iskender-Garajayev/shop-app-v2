@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 // import products from '../products'
 import Product from './Product'
 import axios from 'axios'
+import Header from './Header'
 
 const HomeScreen = () => {
 
@@ -17,6 +18,8 @@ const HomeScreen = () => {
   }, [])
 
   return (
+    <>
+    <Header/>
     <div className='container'>
       {products.map((product) => (
         <div key={product.id}>
@@ -24,6 +27,7 @@ const HomeScreen = () => {
         </div>
       ))}
     </div>
+    </>
   )
 }
 
