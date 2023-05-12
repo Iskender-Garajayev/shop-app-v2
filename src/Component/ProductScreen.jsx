@@ -26,7 +26,12 @@ const ProductScreen = ({match}) => {
         </div>
         <div className="product-screen-title">
           <p>{product.title}</p>
-          
+          <p>{product.description}</p>
+          <p>${product.price}</p>
+          <div className="btn">
+          <button className='product-btn' >Add to card </button>
+          <button className='product-btn' >Buy Now</button>
+          </div>
         </div>
       </div>      
     </>

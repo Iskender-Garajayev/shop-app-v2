@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 // import {useParams} from 'react-router-dom'
 // import products from '../products'
 // import axios from 'axios'
@@ -27,7 +28,8 @@ const Product = ({product}) => {
           </Link>
           <div className="card-body">
             <p>{product.title}</p>
-            <p>{product.price}</p>
+            <p>${product.price}</p>
+            
           </div>
         </div>
     </div>
